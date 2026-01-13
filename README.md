@@ -2,7 +2,7 @@
 
 This repository gathers codes for the control of a Battery Energy Storage System (BESS) in the Imbalance Settlement (IS) using Reinforcement Learning (RL). In particular, a TD3 agent is used to control on a quarter-hour basis a 20MW/MWh BESS participating exclusively to the IS (no bidding on any market).
  
-The TD3_agent_git.py files is the main script that can be run to train and test a TD3 agent based on Belgian IS data also provided in this repository. All useful functions and classes are in the file Classes_TD3_git.py. The requirements are in the requirements.txt file.
+The TD3_agent_git.py file is the main script that can be run to train and test a TD3 agent based on Belgian IS data also provided in this repository. All useful functions and classes are in the file Classes_TD3_git.py. The requirements are in the requirements.txt file.
  
 This script is one of the original building block that was used for the paper : C. Rasic, P. Favaro, Y. Wang and J. -F. Toubeau, "Safe Reinforcement Learning for Battery Energy Storage Participation in the Imbalance Settlement," in IEEE Transactions on Energy Markets, Policy and Regulation, doi: 10.1109/TEMPR.2025.3639758.
 
